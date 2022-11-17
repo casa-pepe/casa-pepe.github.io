@@ -1,0 +1,28 @@
+<template>
+    <svg xmlns="http://www.w3.org/2000/svg"  
+        class="facebook"
+        viewBox="0 0 24 24" 
+        :width="width" 
+        :height="height">
+            <path d="M17,3H7C4.791,3,3,4.791,3,7v10c0,2.209,1.791,4,4,4h5.621v-6.961h-2.343v-2.725h2.343V9.309c0-2.324,1.421-3.591,3.495-3.591c0.699-0.002,1.397,0.034,2.092,0.105v2.43h-1.428c-1.13,0-1.35,0.534-1.35,1.322v1.735h2.7l-0.351,2.725h-2.365V21H17c2.209,0,4-1.791,4-4V7C21,4.791,19.209,3,17,3z"/>
+    </svg>
+</template>
+
+<style scoped>
+    .facebook{
+        transition:all 0.2s;
+        fill: #ffffff;
+    }
+    .facebook:hover{
+        fill:theme('colors.yellow.500');
+    }
+</style>
+
+<script>
+export default {
+    props: {
+        width: String,
+        height: String
+    }
+}
+</script>
