@@ -60,7 +60,7 @@
 
         <Event 
           startFillColor="fill-yellow-600" 
-          endFillColor="fill-red-700" 
+          endFillColor="fill-indigo-700" 
           eventImage="/salmonfest-poster-2022.jpg"
           eventTitle="Salmonfest"
           eventDate="August 5th - 7th 2022"
@@ -71,7 +71,7 @@
 
         <Event 
           startFillColor="fill-yellow-600" 
-          endFillColor="fill-red-700" 
+          endFillColor="fill-indigo-700" 
           eventTitle="Spenard Jazzfest"
           eventDate="June 1st - 5th 2022"
           eventLocation="Spenard!"
