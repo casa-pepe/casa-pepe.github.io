@@ -46,7 +46,7 @@ export default Vue.extend({
       // console.log(scroll)
 
       if(scroll%100 == 0){
-        let letter = this.$refs[this.getRandomLetter()]
+        const letter : HTMLElement = this.$refs[this.getRandomLetter()] as HTMLElement
         console.log(letter)
         if(letter){ 
           letter.style.fill = this.getRandomColor()
