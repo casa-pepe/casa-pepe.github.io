@@ -1,8 +1,10 @@
 <template>
     <div 
         class="relative bg-fixed bg-cover bg-center bg-no-repeat" 
-        :style="bgImage">
-        <svg viewBox="0 0 100 100" preserveAspectRatio="none" class="w-full h-12 fill-current text-black" >
+        :style="bgImage"
+        >
+        <svg ref="top"
+            viewBox="0 0 100 100" preserveAspectRatio="none" class="w-full h-12 text-black" >
             <polygon :class="startFillColor" points="0,0 100,0 50,65" />
         </svg>
 
@@ -27,6 +29,7 @@
 </template>
 
 <script>
+
 export default {
     props: {
         startFillColor: String,
@@ -38,8 +41,19 @@ export default {
         eventLocation: String,
         eventLink: String
     },
-    setup() {
-        
+    mounted () {
+        window.addEventListener('scroll', this.handleScroll);
     },
+    destroyed () {
+        window.removeEventListener('scroll', this.handleScroll);
+    },
+    methods: {
+        handleScroll (event) {
+            // console.log('scrolling', this.$refs.top.getBoundingClientRect().top)
+            if( this.$refs.top.getBoundingClientRect().top <= 50){
+                $nuxt.$emit('new-highlight', this.$props.startFillColor)
+            }
+        }
+    }
 }
 </script>

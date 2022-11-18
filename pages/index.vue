@@ -5,7 +5,9 @@
         style="background-image: url('/banner5.jpg')"
         >
         
-        <Header />
+        <Header 
+          :highlightColor="highlight" 
+          />
         
         <div 
           class="relative bg-fixed bg-cover bg-center bg-no-repeat z-0 pt-40" 
@@ -70,8 +72,8 @@
           />
 
         <Event 
-          startFillColor="fill-yellow-600" 
-          endFillColor="fill-indigo-700" 
+          startFillColor="fill-indigo-700" 
+          endFillColor="fill-red-700" 
           eventTitle="Spenard Jazzfest"
           eventDate="June 1st - 5th 2022"
           eventLocation="Spenard!"
@@ -168,7 +170,18 @@
 import Vue from 'vue'
 
 export default Vue.extend({
-  name: 'IndexPage'
+  name: 'IndexPage',
+  // props: {
+  //   highlight: String
+  // },
+  created(){
+    this.$nuxt.$on('new-highlight', ($e : any) => this.highlight = $e)
+  },
+  data() {
+    return {
+      highlight: 'fill-current'
+    }
+  }
 })
 </script>
 

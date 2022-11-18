@@ -1,6 +1,6 @@
 <template>
     <div class="fixed top-0 w-full z-40">
-          <svg viewBox="0 0 100 100" preserveAspectRatio="none" class="w-full h-24 fill-current" >
+          <svg viewBox="0 0 100 100" preserveAspectRatio="none" class="w-full h-24" >
             <polygon points="0,0 100,0 100,100 0,100" />
           </svg>
           
@@ -23,7 +23,22 @@
           </div>
 
           <svg viewBox="0 0 100 100" preserveAspectRatio="none" class="w-full h-16 fill-current drop-shadow-lg" >
+            <polygon id="highlight" class="transition-all ease-in-out duration-400" :class="highlightColor" points="0,0 100,0 100,20 50,65 0,20" />
             <polygon points="0,0 100,0 50,65" />
           </svg>
+
         </div>
 </template>
+
+<script lang="ts">
+import Vue from 'vue'
+
+export default {
+  props: {
+    highlightColor: String
+  }, 
+  setup() {
+
+  }
+}
+</script>
