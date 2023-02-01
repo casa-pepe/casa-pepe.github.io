@@ -31,7 +31,7 @@
           </div>
           
           <svg viewBox="0 0 100 100" preserveAspectRatio="none" class="w-full h-8 text-black border-none" >
-            <polygon class="fill-sky-500" points="0,100 100,100 50,50" />
+            <polygon class="fill-sky-500" points="0,100 100,100 50,25" />
           </svg>
           <div class="bg-sky-500 uppercase">
             <div class="m-auto w-fit">
@@ -49,28 +49,37 @@
               eventLink="https://alaskavintagemarkets.com/"
               bgImage="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0,0,0, 0.1)), url('/ak-vintage-bg.jpg')"
               />
-
-            <Event 
+          <Event 
               startFillColor="fill-yellow-600" 
-              endFillColor="fill-indigo-700" 
-              eventImage="/forest-fair-2022.jpg"
-              eventTitle="Girdwood Forest Fair"
-              eventDate="July 7th - 9th 2023"
-              eventLocation="Girdwood, AK"
-              eventLink="https://girdwoodforestfair.com/"
-              bgImage="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0,0,0, 0.1)), url('/forest-fair-cropped.jpg')"
+              endFillColor="fill-rose-600" 
+              eventTitle="Alaska Scottish Highland Games"
+              eventDate="June 24th - 25th, 2023"
+              eventLocation="State Fair Grounds, Palmer, AK"
+              eventLink="https://alaskanscottish.org/highland-games/"
+              bgImage="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0,0,0, 0.1)), url('/scottish-games-bg.jpeg')"
               />
 
-            <Event 
-              startFillColor="fill-indigo-700" 
-              endFillColor="fill-red-700" 
-              eventTitle="Bear Paw Festival"
-              eventImage="/bear-paw-2023.png"
-              eventDate="July 13 - 16 2023"
-              eventLocation="Eagle River, AK"
-              eventLink="https://www.bearpawfestival.org/"
-              bgImage="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0,0,0, 0.1)), url('/bear-paw-bg.png'); background-position: center"
-              />
+          <Event 
+            startFillColor="fill-rose-600" 
+            endFillColor="fill-indigo-700" 
+            eventImage="/forest-fair-2022.jpg"
+            eventTitle="Girdwood Forest Fair"
+            eventDate="July 7th - 9th 2023"
+            eventLocation="Girdwood, AK"
+            eventLink="https://girdwoodforestfair.com/"
+            bgImage="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0,0,0, 0.1)), url('/forest-fair-cropped.jpg')"
+            />
+
+          <Event 
+            startFillColor="fill-indigo-700" 
+            endFillColor="fill-red-700" 
+            eventTitle="Bear Paw Festival"
+            eventImage="/bear-paw-2023.png"
+            eventDate="July 13 - 16 2023"
+            eventLocation="Eagle River, AK"
+            eventLink="https://www.bearpawfestival.org/"
+            bgImage="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0,0,0, 0.1)), url('/bear-paw-bg.png'); background-position: center"
+            />
 
             <Event 
               startFillColor="fill-red-700" 

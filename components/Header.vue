@@ -9,7 +9,7 @@
           </div>
           
           <div class="absolute md:top-5 md:left-5 top-3 left-3 w-48 text-gray-400 text-xs md:text-sm">
-            <a href="tel:9079038865" class="p-2 rounded-md hover:bg-red-800  hover:text-white transition ease-in-out">(907)-903-8865</a>
+            <a href="mail:jay@pepespaella.com" class="p-2 rounded-md hover:bg-red-800  hover:text-white transition ease-in-out">jay@pepespaella.com</a>
           </div>
 
           <div class="absolute top-3 right-0 w-16 text-gray-400 flex">
