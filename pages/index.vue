@@ -67,7 +67,7 @@
               eventTitle="Bear Paw"
               eventImage="/bear-paw-2023.png"
               eventDate="July 13 - 16 2023"
-              eventLocation="Eagle Rive, AK"
+              eventLocation="Eagle River, AK"
               eventLink="https://www.bearpawfestival.org/"
               bgImage="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0,0,0, 0.1)), url('/bear-paw-bg.png'); background-position: center"
               />
