@@ -64,7 +64,7 @@
             <Event 
               startFillColor="fill-indigo-700" 
               endFillColor="fill-red-700" 
-              eventTitle="Bear Paw"
+              eventTitle="Bear Paw Festival"
               eventImage="/bear-paw-2023.png"
               eventDate="July 13 - 16 2023"
               eventLocation="Eagle River, AK"
