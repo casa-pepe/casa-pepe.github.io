@@ -9,7 +9,7 @@
         </svg>
 
         <div class="flex pl-16 pb-16 flex-col md:flex-row justify-center m-auto w-80">
-            <img v-if="eventImage" :src="eventImage" class="w-48 md:w-72" />
+            <img v-if="eventImage" :src="eventImage" class="self-center" />
             <div class="md:pl-16 pt-8 text-white">
                 <h2 class="text-xl md:text-4xl uppercase">{{ eventTitle }}</h2>
                 <h3 class="">{{ eventDate }}</h3>

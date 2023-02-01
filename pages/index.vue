@@ -31,16 +31,57 @@
           </div>
           
           <svg viewBox="0 0 100 100" preserveAspectRatio="none" class="w-full h-8 text-black border-none" >
-            <polygon class="fill-red-600" points="0,100 100,100 50,50" />
+            <polygon class="fill-sky-500" points="0,100 100,100 50,50" />
           </svg>
-          <div class="bg-red-600 uppercase">
+          <div class="bg-sky-500 uppercase">
             <div class="m-auto w-fit">
-             <h3 class="text-2xl">2023 Schedule Upcoming...</h3>
+             <h3 class="text-xl text-white">2023 Schedule ... More to come! </h3>
             </div>
           </div>
-          <svg viewBox="0 0 100 100" preserveAspectRatio="none" class="w-full h-8 text-black border-none bg-red-600" >
-            <polygon class="fill-sky-500" points="0,100 100,100 100,0 50,45 0,0" />
-          </svg>
+
+          <Event 
+              startFillColor="fill-sky-500" 
+              endFillColor="fill-yellow-600" 
+              eventImage="/ak-vintage-logo.jpg"
+              eventTitle="Alaska Vintage Market"
+              eventDate="May 12 - 14, 2023"
+              eventLocation="State Fair Grounds, Palmer, AK"
+              eventLink="https://alaskavintagemarkets.com/"
+              bgImage="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0,0,0, 0.1)), url('/ak-vintage-bg.jpg')"
+              />
+
+            <Event 
+              startFillColor="fill-yellow-600" 
+              endFillColor="fill-indigo-700" 
+              eventImage="/forest-fair-2022.jpg"
+              eventTitle="Girdwood Forest Fair"
+              eventDate="July 7th - 9th 2023"
+              eventLocation="Girdwood, AK"
+              eventLink="https://girdwoodforestfair.com/"
+              bgImage="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0,0,0, 0.1)), url('/forest-fair-cropped.jpg')"
+              />
+
+            <Event 
+              startFillColor="fill-indigo-700" 
+              endFillColor="fill-red-700" 
+              eventTitle="Bear Paw"
+              eventImage="/bear-paw-2023.png"
+              eventDate="July 13 - 16 2023"
+              eventLocation="Eagle Rive, AK"
+              eventLink="https://www.bearpawfestival.org/"
+              bgImage="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0,0,0, 0.1)), url('/bear-paw-bg.png'); background-position: center"
+              />
+
+            <Event 
+              startFillColor="fill-red-700" 
+              endFillColor="fill-sky-500"               
+              eventTitle="Salmonfest"
+              eventDate="August 4th - 6th 2023"
+              eventLocation="Ninilchik, AK"
+              eventLink="https://salmonfestalaska.org/"
+              bgImage="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0,0,0, 0.1)), url('/salmonfest-2022.jpg'); background-position: center"
+              />
+
         </div>
 
         <div class="bg-sky-500">
