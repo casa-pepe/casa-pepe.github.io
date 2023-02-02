@@ -26,7 +26,7 @@
               Our brand of Paella began as an adventure in cooking inspired by biking through the Spanish countryside. It has evolved in the tradition of finding fresh, Alaskan ingredients and preparing them on site for the best experience.
             </div>
             <div class="w-64">
-              We strive to provide a unique culinary experience in fantastic locations and settings. You may have tried our paella at music festivals, your farmer's market, a wedding, or any number of other events, either way we look forward to working with you. 
+              We strive to provide a unique culinary experience in fantastic locations and settings. You may have tried our paella at music festivals, your farmer's market, a wedding, or any number of other events, either way we look forward to serving up the freshest food around. 
             </div>
           </div>
           
