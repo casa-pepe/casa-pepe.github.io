@@ -93,54 +93,6 @@
 
         </div>
 
-        <div class="bg-sky-500">
-          <div class="m-auto w-fit">
-            <h2 class="text-xl">PAST EVENTS</h2>
-          </div>
-        </div>
-        
-        <Event 
-          startFillColor="fill-sky-500" 
-          endFillColor="fill-yellow-600" 
-          eventImage="/forest-fair-2022.jpg"
-          eventTitle="Girdwood Forest Fair"
-          eventDate="July 1st - 3rd 2022"
-          eventLocation="Girdwood, AK"
-          eventLink="https://girdwoodforestfair.com/"
-          bgImage="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0,0,0, 0.1)), url('/forest-fair-cropped.jpg')"
-          />
-
-        <Event 
-          startFillColor="fill-yellow-600" 
-          endFillColor="fill-indigo-700" 
-          eventImage="/salmonfest-poster-2022.jpg"
-          eventTitle="Salmonfest"
-          eventDate="August 5th - 7th 2022"
-          eventLocation="Ninilchik, AK"
-          eventLink="https://salmonfestalaska.org/"
-          bgImage="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0,0,0, 0.1)), url('/salmonfest-2022.jpg'); background-position: center"
-          />
-
-        <Event 
-          startFillColor="fill-indigo-700" 
-          endFillColor="fill-red-700" 
-          eventTitle="Spenard Jazzfest"
-          eventDate="June 1st - 5th 2022"
-          eventLocation="Spenard!"
-          eventLink="https://www.spenardjazzfest.org/"
-          bgImage="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0,0,0, 0.1)), url('/jazzfest.jpg'); background-position: center"
-          />
-          
-        <Event 
-          startFillColor="fill-red-700" 
-          endFillColor="fill-yellow-700" 
-          eventImage="/chickenstock-poster-2021.jpg"
-          eventTitle="Chickenstock!"
-          eventDate="June 3rd - 5th 2021"
-          eventLocation="Chicken, AK"
-          eventLink="https://www.facebook.com/ChickenstockMusicFest/"
-          bgImage="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0,0,0, 0.1)), url('/chickenstock-2021.jpg'); background-position: center"
-          />
 
         <div class="bg-yellow-700">
           <div class="m-auto w-fit">
