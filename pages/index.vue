@@ -35,7 +35,7 @@
           </svg>
           <div class="bg-sky-500 uppercase">
             <div class="m-auto w-fit">
-             <h3 class="text-xl text-white">2023 Schedule ... More to come! </h3>
+             <h3 class="text-xl text-white">2023 Schedule</h3>
             </div>
           </div>
 
