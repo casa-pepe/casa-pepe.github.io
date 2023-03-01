@@ -83,7 +83,7 @@
 
             <Event 
               startFillColor="fill-red-700" 
-              endFillColor="bg-yellow-700"               
+              endFillColor="fill-yellow-700"               
               eventTitle="Salmonfest"
               eventDate="August 4th - 6th 2023"
               eventLocation="Ninilchik, AK"
