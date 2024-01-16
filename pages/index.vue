@@ -30,34 +30,29 @@
             </div>
           </div>
           
+          <!-- coming soon start -->
           <svg viewBox="0 0 100 100" preserveAspectRatio="none" class="w-full h-8 text-black border-none" >
-            <polygon class="fill-sky-500" points="0,100 100,100 50,25" />
+            <polygon class="fill-blue-600" points="0,100 100,100 50,25" />
           </svg>
-          <div class="bg-sky-500 uppercase">
+          <div class="bg-blue-600 uppercase">
             <div class="m-auto w-fit">
-             <h3 class="text-xl text-white">2023 Schedule</h3>
+             <h3 class="text-xl text-white">2024 Schedule coming soon!</h3>
             </div>
           </div>
+          <svg ref="top"
+            viewBox="0 0 100 100" preserveAspectRatio="none" class="w-full h-12 text-black" >
+            <polygon class="fill-blue-600" points="0,0 100,0 50,65" />
+          </svg>
+          <!-- coming soon end -->
 
-          <Event 
-              startFillColor="fill-sky-500" 
-              endFillColor="fill-yellow-600" 
-              eventImage="/ak-vintage-logo.jpg"
-              eventTitle="Alaska Vintage Market"
-              eventDate="May 12 - 14, 2023"
-              eventLocation="State Fair Grounds, Palmer, AK"
-              eventLink="https://alaskavintagemarkets.com/"
-              bgImage="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0,0,0, 0.1)), url('/ak-vintage-bg.jpg')"
-              />
-          <Event 
-              startFillColor="fill-yellow-600" 
-              endFillColor="fill-rose-600" 
-              eventTitle="Alaska Scottish Highland Games"
-              eventDate="June 24th - 25th, 2023"
-              eventLocation="State Fair Grounds, Palmer, AK"
-              eventLink="https://alaskanscottish.org/highland-games/"
-              bgImage="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0,0,0, 0.1)), url('/scottish-games-bg.jpeg')"
-              />
+          <svg viewBox="0 0 100 100" preserveAspectRatio="none" class="w-full h-8 text-black border-none" >
+            <polygon class="fill-rose-600" points="0,100 100,100 50,25" />
+          </svg>
+          <div class="bg-rose-600 uppercase">
+            <div class="m-auto w-fit">
+             <h3 class="text-xl text-white">Past Events</h3>
+            </div>
+          </div>
 
           <Event 
             startFillColor="fill-rose-600" 
@@ -91,6 +86,15 @@
               bgImage="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0,0,0, 0.1)), url('/salmonfest-2022.jpg'); background-position: center"
               />
 
+            <Event 
+              startFillColor="fill-yellow-700" 
+              endFillColor="fill-yellow-700"               
+              eventTitle="Alaska State Fair"
+              eventDate="August 18th - September 4th 2023"
+              eventLocation="Palmer, AK"
+              eventLink="https://www.alaskastatefair.org/site/#alaska-state-fair"
+              bgImage="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0,0,0, 0.1)), url('/salmonfest-2022.jpg'); background-position: center"
+              />
         </div>
 
 
