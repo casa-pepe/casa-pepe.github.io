@@ -36,7 +36,7 @@
           </svg>
           <div class="bg-blue-600 uppercase">
             <div class="m-auto w-fit">
-             <h3 class="text-xl text-white">2024 Schedule coming soon!</h3>
+             <h3 class="text-xl text-white">2025 Schedule coming soon!</h3>
             </div>
           </div>
           <svg ref="top"
